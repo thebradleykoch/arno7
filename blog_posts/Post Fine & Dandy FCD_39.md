@@ -1,3 +1,5 @@
+<!-- markdownlint-disable -->
+
 # Post | Fine & Dandy
 
 **By Laney Wilks**

@@ -1,3 +1,5 @@
+<!-- markdownlint-disable -->
+
 # Adopting One of Our Retired Adults
 
 **By Laney Wilks**
