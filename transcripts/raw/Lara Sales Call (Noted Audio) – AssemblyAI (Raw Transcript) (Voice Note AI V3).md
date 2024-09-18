@@ -525,4 +525,3 @@ Yeah. Are you talking about, like, the custom instructions kind of thing? Yeah, 
 [00:35:36]
 **Lara:**
 Okay. Yeah. Just include that on the proposal because that's.
-

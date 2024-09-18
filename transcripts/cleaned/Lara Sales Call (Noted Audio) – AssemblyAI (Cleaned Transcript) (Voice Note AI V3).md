@@ -1,5 +1,5 @@
 ---
-title: "Lara Sales Call (Noted Audio) – AssemblyAI (Cleaned Transcript) (Voice Note AI Version V3)"
+title: "Lara Sales Call (Noted Audio) – AssemblyAI (Cleaned Transcript) (Voice Note AI V3)"
 ---
 
 [00:00:00]

@@ -1,5 +1,3 @@
-Here's the reformatted transcript:
-
 ## Introduction and Business Goals
 
 [00:00:00]
@@ -18,7 +16,7 @@ The other is, I am teaming up with a therapy office to be like their in-house co
 
 And then like on the personal side, I envision, and this may be too grandiose, but I envision having like an assistant that I can talk to like, oh, like a Jarvis. If you know, like, where is my Jarvis. So being able to have something where I can talk into it. 'cause when I'm driving, that's when I remember everything. And I'm not in a spot that I can do much. So it'd be really nice to just like, you know, talk into something like "add this to the checklist." I kind of do it with Alexa right now. But being able to kind of manage those things that are always in my mind. And having in one spot and kind of organizing it for me. Again, that might be too much.
 
-## Voice Chat and Brain Dumping
+## Voice Chat and Braindumping
 
 [00:02:24]
 **Bradley:**
