@@ -7,16 +7,17 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Library/Mobile Documents/com~apple~CloudDocs/Ghostwriting/My Voice Notes/Arno7/Audio Files/Creating A Content Database With Claude – Overcoming Upgraded Skill-Level Problems And Limitations.m4a"
+audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/Laney Content Call 05 (Zoom Audio) (Voice Note AI).m4a"
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
 
 # Set the number of speakers expected in the audio file
-speakers_expected = 1
+speakers_expected = 3
 # Define the speakers' names
-speaker_a = "Bradley"
-speaker_b = ""  # Add this speaker name when there's a second speaker
+speaker_a = "Laney"
+speaker_b = "Jody"  # Add this when there's a second speaker
+speaker_c = "Bradley"  # Add this when there's a third speaker
 
 
 # Load environment variables from .env file
@@ -43,9 +44,9 @@ config = aai.TranscriptionConfig(
         "vs", "braindump", "gameplan"
     ],
     boost_param="high",
-    disfluencies=False,
+    disfluencies=False
     # audio_start_from=0,  # The start time of the transcription in milliseconds
-    # audio_end_at=60000  # The end time of the transcription in milliseconds
+    # audio_end_at=80000  # The end time of the transcription in milliseconds
 )
 
 # Create the transcriber object
@@ -77,24 +78,27 @@ if speakers_expected == 1:
     speaker_mapping = {"A": f"{speaker_a}"}
 elif speakers_expected == 2:
     speaker_mapping = {"A": f"{speaker_a}", "B": f"{speaker_b}"}
+elif speakers_expected == 3:
+    speaker_mapping = {"A": f"{speaker_a}",
+                       "B": f"{speaker_b}", "C": f"{speaker_c}"}
 
 # Initialize an empty string to store the raw transcript
 raw_transcript = ""
 
-# (Uncomment this section if there's only one speaker) Get the paragraphs and format them
-paragraphs = transcript.get_paragraphs()
-for paragraph in paragraphs:
-    start_time = format_timestamp(paragraph.start)
-    # Replace the speaker label with their actual name
-    speaker_name = speaker_a
-    raw_transcript += f"{start_time}\n**{speaker_name}:**\n{paragraph.text}\n\n"
+# # (Uncomment this section if there's only one speaker) Get the paragraphs and format them
+# paragraphs = transcript.get_paragraphs()
+# for paragraph in paragraphs:
+#     start_time = format_timestamp(paragraph.start)
+#     # Replace the speaker label with their actual name
+#     speaker_name = speaker_a
+#     raw_transcript += f"{start_time}\n**{speaker_name}:**\n{paragraph.text}\n\n"
 
-# # (Uncomment this line if there are multiple speakers) Print the transcript with correctly formatted timestamps and speaker labels
-# for utterance in transcript.utterances:
-#     start_time = format_timestamp(utterance.start)
-#     # Replace the speaker labels with their actual names
-#     speaker_name = speaker_mapping.get(utterance.speaker, utterance.speaker)
-#     raw_transcript += f"{start_time}\n**{speaker_name}:**\n{utterance.text}\n\n"
+# (Uncomment this line if there are multiple speakers) Print the transcript with correctly formatted timestamps and speaker labels
+for utterance in transcript.utterances:
+    start_time = format_timestamp(utterance.start)
+    # Replace the speaker labels with their actual names
+    speaker_name = speaker_mapping.get(utterance.speaker, utterance.speaker)
+    raw_transcript += f"{start_time}\n**{speaker_name}:**\n{utterance.text}\n\n"
 
 # Print and copy the transcript to the clipboard
 print(raw_transcript)
