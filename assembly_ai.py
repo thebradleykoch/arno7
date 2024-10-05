@@ -16,8 +16,8 @@ audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/Sel
 speakers_expected = 1
 # Define the speakers' names
 speaker_a = "Bradley"
-# speaker_b = "Jody"  # Add this when there's a second speaker
-# speaker_c = "Bradley"  # Add this when there's a third speaker
+speaker_b = ""  # Add this when there's a second speaker
+speaker_c = ""  # Add this when there's a third speaker
 
 
 # Load environment variables from .env file
