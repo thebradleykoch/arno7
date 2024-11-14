@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/Self-Observations – First Week Of October 2024 (The Big Q4!) (Noted Audio).m4a"
+audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/📈 Rapid Lessons Learned & EEC Writing Approach Upgrades.m4a"
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
@@ -111,8 +111,14 @@ os.makedirs(output_directory, exist_ok=True)
 output_filename = f"{base_filename} (Voice Note AI) (Raw Transcript).md"
 output_path = os.path.join(output_directory, output_filename)
 
+# Create the header by removing the extension using os.path.splitext()
+header = f"# {os.path.splitext(output_filename)[0]}\n\n"
+
+# Combine the header with the transcript content
+final_content = header + raw_transcript
+
 with open(output_path, "w") as f:
-    f.write(raw_transcript)
+    f.write(final_content)
 
 # Get the absolute path and format it as a clickable link
 abs_path = os.path.abspath(output_path)
