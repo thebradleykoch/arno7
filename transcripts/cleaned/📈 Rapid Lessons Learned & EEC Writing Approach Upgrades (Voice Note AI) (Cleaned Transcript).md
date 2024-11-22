@@ -12,7 +12,7 @@ Okay, cool. So I just basically wanted to make a quick note on, I think. So let 
 
 [00:01:09]  
 **Bradley:**  
-I felt like I was super knee-deep and up close, like in the technical details and in the weeds of trying to figure out how the heck do I like how the heck do I use Cole's 1-3-1 writing rhythm. And then also like a rhetorical structure prompt template. And then also what else, like self prompt interview questions. How do I basically, you know, combine those three together? And then I was dealing with a lot of like, just internal doubt and almost self-esteem challenges of like, man, I haven't actually written like as a human being in like full form in a long time.
+I felt like I was super knee-deep and up close, like in the technical details and in the weeds of trying to figure out how the heck do I like how the heck do I use Cole's "1-3-1 writing rhythm". And then also like a "rhetorical structure prompt template". And then also what else, like the "self-prompt interview questions". How do I basically, you know, combine those three together? And then I was dealing with a lot of like, just internal doubt and almost self-esteem challenges of like, man, I haven't actually written like as a human being in like full form in a long time.
 
 [00:02:02]  
 **Bradley:**  
@@ -30,7 +30,7 @@ I think it's blog post 7. But anyway, regardless, it's the one that's like 3 sur
 
 [00:04:27]  
 **Bradley:**  
-Everything was great all the way up to, you know, like, the prep to page variables was great. The main points and subpoints, which is the braindump, bullseye method, that was all great, right? But then once we hit the, like, once we hit the prep, the page outline where we actually like, plug those main points and subpoints in and sort of hash out what the skeleton looks like with, you know, some bullet points and subheads filled in, I was starting to realize. I was like, okay, well, looking at the next step, which is basically expand this outline into a full post using a rhetorical structure. I was like, the rhetorical structure that I have currently in my notion doc that I've used for, like most of her other blog posts.
+Everything was great all the way up to, you know, like, the prep to page variables was great. The main points and subpoints, which is the "braindump bullseye method", that was all great, right? But then once we hit the, like, once we hit the prep, the page outline where we actually like, plug those main points and subpoints in and sort of hash out what the skeleton looks like with, you know, some bullet points and subheads filled in, I was starting to realize. I was like, okay, well, looking at the next step, which is basically expand this outline into a full post using a rhetorical structure. I was like, the rhetorical structure that I have currently in my notion doc that I've used for, like most of her other blog posts.
 
 [00:05:23]  
 **Bradley:**  
@@ -52,7 +52,7 @@ And my original rhetorical structure prompt was much more, like, much more orien
 
 [00:07:37]  
 **Bradley:**  
-Basically, it was just not a fit. It was just not a fit for the newsletter I was writing. And I've come across this multiple times where it's like, okay, I'm trying to create a universal rhetorical structure template just doesn't work. And so what I'm realizing is, like. And this makes so much sense, though, dude, because it's like, okay, with Cole and Dickey, like, you might have, let's say you have the 4 different types of EECs, 4 different types of Educational Email Courses, which are, I think it's the biggest mistakes.
+Basically, it was just not a fit. It was just not a fit for the newsletter I was writing. And I've come across this multiple times where it's like, okay, I'm trying to create a universal rhetorical structure template just doesn't work. And so what I'm realizing is, like. And this makes so much sense, though, dude, because it's like, okay, with Cole and Dickie, like, you might have, let's say you have the 4 different types of EECs, 4 different types of Educational Email Courses, which are, I think it's the biggest mistakes.
 
 ### Recognizing the Importance of Specificity in Templates
 
@@ -92,7 +92,7 @@ I basically converted or transformed that to a new rhetorical structure template
 
 [00:11:40]  
 **Bradley:**  
-I just didn't scroll further, far enough down in his book called the Art and Business of Online Writing. But main points, you're more typically going to follow a. I think it's like a. It's either a 1-3-5-2-1 structure or like a. I think it might even be like a 1-2-5-3-1-2-5-3-1.
+I just didn't scroll further, far enough down in his book called the Art and Business of Online Writing. But main points, you're more typically going to follow a. I think it's like a. It's either a 1-3-5-2-1 structure or like a. I think it might even be like a 1-2-5-3, or a 1-2-5-3-1.
 
 [00:12:06]  
 **Bradley:**  
@@ -112,7 +112,7 @@ And then before he drafted anything, I just said, okay, cool, now I want you to 
 
 [00:13:35]  
 **Bradley:**  
-Study these 3 or 4 blog posts from your project knowledge base. And I want you to extract like 2 or 3 attributes for style, tone and voice with examples from Laney's previous blog post. And then after that, I want you to do a thinking step for how you can basically, basically, like, execute this rhetorical structure in a way that matches up with the prep the page outline and is written in Laney's own style, tone and voice without, like creating too much repetition or redundancies. Right. Anyway, I was recapping.
+Study these 3 or 4 blog posts from your project knowledge base. And I want you to extract like 2 or 3 attributes for style, tone and voice with examples from Laney's previous blog post. And then after that, I want you to do a thinking step for how you can basically, basically, like, execute this rhetorical structure in a way that matches up with the "prep the page outline" and is written in Laney's own style, tone and voice without, like creating too much repetition or redundancies. Right. Anyway, I was recapping.
 
 ### Importance of Flexibility in Writing Rhythm
 
@@ -144,7 +144,7 @@ I think so, yeah. And that was a rhetorical structure prompt template, like a sp
 
 [00:16:35]  
 **Bradley:**  
-And so to just demonstrate what I think this means for me going forward with writing my personal 5-Day Educational Email Course, writing days 1 through 5, like day 1 email, day 2 email, all the way through day 5. Here's what I realized, because I knew going into this that I was going that I was wanting to make more of. Not just a basic generic like hey, here's the biggest mistakes category of EEC is more so like, okay, that's how we can start out and sort of present it at the start. But I'm going, I'm going to show you the biggest mistakes, the reasons why those things are mistakes or the reason why those happen and how to fix them. But then I'm also going to go beyond that and basically give you like tangible how to action steps and actual examples of what this looks like in real life and then a template.
+And so to just demonstrate what I think this means for me going forward with writing my personal 5-Day Educational Email Course, writing days 1 through 5, like day 1 email, day 2 email, all the way through day 5. Here's what I realized, because I knew going into this that I was going that I was wanting to make more of. Not just a basic generic like hey, here's the "Biggest Mistakes" category of EEC is more so like, okay, that's how we can start out and sort of present it at the start. But I'm going, I'm going to show you the biggest mistakes, the reasons why those things are mistakes or the reason why those happen and how to fix them. But then I'm also going to go beyond that and basically give you like tangible how to action steps and actual examples of what this looks like in real life and then a template.
 
 [00:17:45]  
 **Bradley:**  
@@ -172,7 +172,7 @@ Let's see. So it has, okay, so the 5 components of a perfect course module. Numb
 
 [00:21:34]  
 **Bradley:**  
-Number 4, commonly asked questions, objections. Number 5, walk through example proof. Right? And so I guess just to put this in perspective, like I'm following this a little bit shuffled around. So I'm following this perfect course module, but a little bit shuffled around.
+Number 4, commonly asked questions, objections. Number 5, walkthrough example (proof). Right? And so I guess just to put this in perspective, like I'm following this a little bit shuffled around. So I'm following this "perfect course module", but a little bit shuffled around.
 
 [00:22:02]  
 **Bradley:**  
@@ -252,7 +252,7 @@ And like, if, if I want Arno to give his own take and give his own, like, creati
 
 [00:30:54]  
 **Bradley:**  
-I will say too, though, like, one valuable thing I think that I, that I've realized that has been stressing me out a ton recently has been whenever I sort of distance myself from the original raw source content, for example, whenever I just like, instead of actually going back and literally like manually reading with my own eyes my past braindump voice note transcripts. Like, if instead of that, my default is always to go to, oh, well, Arno can, you know, extract ideas and insights and like, better perspectives than me very like, much quicker than I can. He can synthesize all this stuff. So let me just prompt him to basically do all the heavy lifting with the like, analyzing and extracting and hunting down key ideas and phrases in the voice note transcript. Right.
+I will say too, though, like, one valuable thing I think that I, that I've realized that has been stressing me out a ton recently has been whenever I sort of distance myself from the original raw source content, for example, whenever I just like, instead of actually going back and literally like manually reading with my own eyes my past braindump voice note transcripts. Like, if instead of that, my default is always to go to, "Oh, well, Arno can, you know, extract ideas and insights and like, better perspectives than me very like, much quicker than I can. He can synthesize all this stuff. So let me just prompt him to basically do all the heavy lifting with the like, analyzing and extracting and hunting down key ideas and phrases in the voice note transcript. Right?"
 
 [00:32:00]  
 **Bradley:**  
@@ -268,7 +268,7 @@ And so you should use those and you should plug them in this order. Right.
 
 [00:33:32]  
 **Bradley:**  
-And then you can actually go deeper. I think that's what you use it as is basically like a, I'm trying to think. It's kind of like a Tiago forte concept where it's like you have an archipelago, archipelago, archipelago, archipelago, something like that. Basically like all these little mountain, top peak islands. And you can then dive deeper into like a particular point where if Arno brings up a main point as just kind of like a brief principle or summary and I'm like, you know what, I really like that I want to get more, I want to get closer to it.
+And then you can actually go deeper. I think that's what you use it as is basically like a, I'm trying to think. It's kind of like a Tiago Forte concept where it's like you have an archipelago, archipelago, archipelago, archipelago, something like that. Basically like all these little mountain, top peak islands. And you can then dive deeper into like a particular point where if Arno brings up a main point as just kind of like a brief principle or summary and I'm like, you know what, I really like that I want to get more, I want to get closer to it.
 
 [00:34:14]  
 **Bradley:**  
@@ -280,7 +280,7 @@ Like you look and go, okay, you know, I like that chapter and that chapter. Thos
 
 [00:34:57]  
 **Bradley:**  
-But yeah, so what I found is that has helped me to de. Stress and like feel much more kind of like, like I'm in the know or I'm down on the ground level like firsthand. I'm not, I'm not missing anything. I'm not you know, removed or like trying to. Trying to look through, you know, a glass mirror or look through some sort of tinted shades.
+But yeah, so what I found is that has helped me to de-stress and like feel much more kind of like, like I'm in the know or I'm down on the ground level like firsthand. I'm not, I'm not missing anything. I'm not you know, removed or like trying to. Trying to look through, you know, a glass mirror or look through some sort of tinted shades.
 
 [00:35:34]  
 **Bradley:**  
@@ -292,7 +292,7 @@ Like ping phrases and unique perspectives and like named and claimed concepts or
 
 [00:36:38]  
 **Bradley:**  
-So anyway, I think that's going to be my approach for this is like, if I have a massive braindump transcript on here. Here are 3 different parts to 3 different braindump transcripts combined and stitched together on the topic of creating custom instructions for your AI to turn it into a collaborative partner. And I'm like, dude, I don't have time to sift through that entire thing. What I'd do is I'd be like, hey, Arnold, go piece by piece. I want you to identify the goal and purpose.
+So anyway, I think that's going to be my approach for this is like, if I have a massive braindump transcript on here. Here are 3 different parts to 3 different braindump transcripts combined and stitched together on the topic of creating custom instructions for your AI to turn it into a collaborative partner. And I'm like, dude, I don't have time to sift through that entire thing. What I'd do is I'd be like, hey, Arno, go piece by piece. I want you to identify the goal and purpose.
 
 [00:37:10]  
 **Bradley:**  
@@ -308,7 +308,7 @@ I'd be like, okay, cool. I'm going to, like, what I'm deliberately going to extr
 
 [00:39:03]  
 **Bradley:**  
-What I'd probably do is I'd probably like, copy it and save it to a. So paste, right? The P, A S T E, the paste pin board app, like the Clipboard manager. What I do is I would copy that line or that text to a specific paste pin board. And then I probably.
+What I'd probably do is I'd probably like, copy it and save it to a. So Paste, right? The P A S T E, the paste pinboard app, like the Clipboard manager. What I do is I would copy that line or that text to a specific paste pin board. And then I probably.
 
 [00:39:25]  
 **Bradley:**  
@@ -400,7 +400,7 @@ Right.
 
 [00:46:25]  
 **Bradley:**  
-It's that 6 fundamental building blocks of every book, course or digital product that I create. And so anyway, all I'm saying is that these things overlap a lot. It's just that the like the subtle pairings or groupings and the order and progression is a little bit different. Right, Cool. And then here's the only difference from mine.
+It's that "6 fundamental building blocks of every book, course or digital product that I create". And so anyway, all I'm saying is that these things overlap a lot. It's just that the like the subtle pairings or groupings and the order and progression is a little bit different. Right, Cool. And then here's the only difference from mine.
 
 [00:46:54]  
 **Bradley:**  
@@ -408,7 +408,7 @@ Right. So instead of just ending on. Okay, and here's how to fix it. Here's 3 ba
 
 [00:47:01]  
 **Bradley:**  
-See you later. No, mine goes beyond that and it starts to more so like parallel and match up with the 6 fundamental building blocks framework. Because now after we've cleared up those, after we've cleared up like the thinking, the old thinking, the old like the emotion, the thinking, reframed the emotion, reframe the myths and mistake. Reframe. Now we're not just ending on action steps which is item number 4 out of 6 in that framework or step number 4.
+See you later. No, mine goes beyond that and it starts to more so like parallel and match up with the "6 fundamental building blocks" framework. Because now after we've cleared up those, after we've cleared up like the thinking, the old thinking, the old like the emotion, the thinking, reframed the emotion, reframe the myths and mistake. Reframe. Now we're not just ending on action steps which is item number 4 out of 6 in that framework or step number 4.
 
 [00:47:43]  
 **Bradley:**  
@@ -424,7 +424,7 @@ That's like half of the 6 fundamental building box framework. That's the front h
 
 [00:49:15]  
 **Bradley:**  
-So what this, like what this perfect course module framework is suggesting is that you do a walk through example which is proof of what you're teaching and how it works. Basically getting the reader to take action and experience it for themselves. Right, let's see. So yeah, so we go, we'd go, okay, here's the action steps. Maybe like a quick 1, 2, 3 high level overview like bullet points.
+So what this, like what this "perfect course module" framework is suggesting is that you do a walkthrough example which is proof of what you're teaching and how it works. Basically getting the reader to take action and experience it for themselves. Right, let's see. So yeah, so we go, we'd go, okay, here's the action steps. Maybe like a quick 1, 2, 3 high level overview like bullet points.
 
 [00:49:51]  
 **Bradley:**  
@@ -432,7 +432,7 @@ Just like the big. Just like the biggest mistakes EEC already has set up, right?
 
 [00:50:21]  
 **Bradley:**  
-Right? This is why I was having such a hard time trying to force myself to write this and why I was getting so like, so like drawn in and up close, frozen and transfixed and glued to trying to figure out coals 1-3-1. Writing rhythm with rhetorical structure, templates and all that jazz was because I didn't have like a clear and simple and like just like logical outline, right? Because I knew I wanted to implement action steps with examples and a template. But I was like, there's just a disconnect in my mind between where does that actually go?
+Right? This is why I was having such a hard time trying to force myself to write this and why I was getting so like, so like drawn in and up close, frozen and transfixed and glued to trying to figure out Cole's 1-3-1 Writing rhythm with rhetorical structure, templates and all that jazz was because I didn't have like a clear and simple and like just like logical outline, right? Because I knew I wanted to implement action steps with examples and a template. But I was like, there's just a disconnect in my mind between where does that actually go?
 
 [00:51:13]  
 **Bradley:**  
@@ -448,7 +448,7 @@ Cool.
 
 [00:51:59]  
 **Bradley:**  
-So let's see. Yes, you have a walk through. I'm trying to think of this. Probably the best model to emulate, dude would just be literally the right. With AI WWAI newsletters by Cole and Dickie.
+So let's see. Yes, you have a walkthrough. I'm trying to think of this. Probably the best model to emulate, dude would just be literally the Write With AI, WWAI newsletters by Cole and Dickie.
 
 [00:52:15]  
 **Bradley:**  
@@ -468,7 +468,7 @@ So you might have. Okay, here's a high level overview of the action steps, bulle
 
 [00:53:17]  
 **Bradley:**  
-Now I'm walking you through these one by one in detail. Like down to earth, boots on the ground firsthand. Let's do this in the trenches, over the shoulder version, right? So you go, okay, cool, here's step 1. And that could be like a, an H3 subhead, so a smaller subhead, step 1, just like the WWAI, right, with AI, these letters, right?
+Now I'm walking you through these one by one in detail. Like down to earth, boots on the ground firsthand. Let's do this in the trenches, over the shoulder version, right? So you go, okay, cool, here's step 1. And that could be like a, an H3 subhead, so a smaller subhead, step 1, just like the WWAI, Write With AI Newsletters, right?
 
 [00:53:42]  
 **Bradley:**  
@@ -480,7 +480,7 @@ And then right below that is, here's a screenshot of the output, right? The resp
 
 [00:54:41]  
 **Bradley:**  
-But yeah man, that's how it goes. So just look at the right with AI at the WWI and these letters to kind of see how we're trade on off between like. Okay, here is action step number 1. Okay, cool. Here is example of action step number 1.
+But yeah man, that's how it goes. So just look at the write with AI at the WWAI Newsletters to kind of see how we're trade on off between like. Okay, here is action step number 1. Okay, cool. Here is example of action step number 1.
 
 [00:54:59]  
 **Bradley:**  
@@ -504,7 +504,7 @@ So you're basically like eliminating any uncertainty or any ambiguity. Ambiguity
 
 [00:56:52]  
 **Bradley:**  
-So this is like how I will implement that component into my specific context, right? So I think, let's see. Yes, it looks like they kind of sandwich the, the FAQ like the commonly asked questions, AKA objections, they sandwich that right between the action steps and the walk through example.
+So this is like how I will implement that component into my specific context, right? So I think, let's see. Yes, it looks like they kind of sandwich the, the FAQ like the commonly asked questions, AKA objections, they sandwich that right between the action steps and the walkthrough example.
 
 [00:57:26]  
 **Bradley:**  
@@ -534,7 +534,7 @@ Or just giving people a clear choice. Like, would you prefer option. Prefer opti
 
 [01:01:02]  
 **Bradley:**  
-Whichever one works for you. Free version of ChatGPT or Pay. Like, you're gonna get better response from pay, but this template, like, it's gonna work either way you go. That's not an excuse.
+Whichever one works for you. Free version of ChatGPT or paid version. Like, you're gonna get better response from paid, but this template, like, it's gonna work either way you go. That's not an excuse.
 
 [01:01:20]  
 **Bradley:**  
@@ -562,7 +562,7 @@ Right. I will say one thing to be very cautious of and like cognizant of and lik
 
 [01:02:43]  
 **Bradley:**  
-In your mind, you're going to be like, oh, man, it's unacceptable that I don't at least point this how. Right. Otherwise they'll discover that what I said here was incorrect because it doesn't apply all the time. But that doesn't matter. You're also going to be tempted to use your most advanced prompt templates that get the highest accuracy results that are, quite frankly, impressive.
+In your mind, you're going to be like, oh, man, it's unacceptable that I don't at least point this out. Right. Otherwise they'll discover that what I said here was incorrect because it doesn't apply all the time, 'cause there are edge cases I should point out to them. But that doesn't matter. You're also going to be tempted to use your most advanced prompt templates that get the highest accuracy results that are, quite frankly, impressive.
 
 [01:03:07]  
 **Bradley:**  
@@ -570,7 +570,7 @@ But at the end of the day, like, you cannot, you cannot do that because, number 
 
 [01:03:42]  
 **Bradley:**  
-You said you want a work partner. Like dad has Steve Scow. Like, I had Jeremy Leavitt for a while. Just like, what was I going to say?
+You said you want a work partner. Like Dad has Steve Scow. Like, I had Jeremy Leavitt for a while. Just like, what was I going to say?
 
 [01:03:55]  
 **Bradley:**  
@@ -578,7 +578,7 @@ Who else? I don't know. There's another example. Just like I had Matt Pickett. J
 
 [01:04:05]  
 **Bradley:**  
-Like, I've been wanting an actual collaborative work partner, like real life work partner, and I need to step up my game and actually like publish my own work and get this, like, first draft version done, this first iteration done. This is just version 1. Get it out there, okay? And I'd say the second thing is if you allow yourself to fall into the temptation and the trap of giving a. Giving a more like a higher, more advanced level prompts template, or more like overly nuanced and like beefed up action steps or examples or annotations or whatever, I guarantee you the reader will pull away.
+Like, I've been wanting an actual collaborative work partner, like real life work partner, and I need to step up my game and actually like publish my own work and get this, like, first draft version done, this first iteration done. This is just version 1. Get it out there, okay? And I'd say the second thing is if you allow yourself to fall into the temptation and the trap of giving a. Giving a more like a higher, more advanced level prompt template, or more like overly nuanced and like beefed up action steps or examples or annotations or whatever, I guarantee you the reader will pull away.
 
 [01:05:05]  
 **Bradley:**  
@@ -586,7 +586,7 @@ They will not understand as well. Even though you think you're explaining better
 
 [01:05:42]  
 **Bradley:**  
-That person just like Lara, just like mom, just like John Michelson, just like anybody else, honestly, feels like tapped out or maxed out at the. At like the perfect point of the intersection between skill and challenge. Just applying that one basic baby step right now, and they need time to sit with it. Like, they need time to put that into place and actually like start experiencing it and using it and like getting their feet wet, interacting with their AI with that basic step in place every day to actually, like, really truly understand what, what this even does. All right, so again, if you need, you need to triage to 3 levels of difficulty, like beginner, intermediate, advanced, and maybe you need Arno's help on deciding what content or what skill or whatever belongs in each category.
+That person just like Lara, just like Mom, just like John Michelson, just like anybody else, honestly, feels like tapped out or maxed out at the. At like the perfect point of the intersection between skill and challenge. Just applying that one basic baby step right now, and they need time to sit with it. Like, they need time to put that into place and actually like start experiencing it and using it and like getting their feet wet, interacting with their AI with that basic step in place every day to actually, like, really truly understand what, what this even does. All right, so again, if you need, you need to triage to 3 levels of difficulty, like beginner, intermediate, advanced, and maybe you need Arno's help on deciding what content or what skill or whatever belongs in each category.
 
 [01:06:58]  
 **Bradley:**  
@@ -598,4 +598,4 @@ But don't overload it. Like, just think whatever is in level 2 is what you are g
 
 [01:07:40]  
 **Bradley:**  
-Okay? And very last thing I will say is just once you have clearly, like, outlined the outline and you've expanded your, your like, final EEC outline, right? From the 5 mistakes, you expand those with like action steps, examples, templates, whatever, just as bullet points only once you've done that and you're confident on actual, like the main sections and order and flow then you will actually like look for these specific sentence by sentence patterns, or like rhetorical directives, rhetorical moves, rhetorical structure, prompt template stuff, and you'll find the braindump voice note transcript, like actual content like I was describing before, hunting that down with a first string vs. second string mentality. And that's where you'll source the content from, and then plug it into that sort of directive or structure where it's more in line. Once you've established the main points and subpoints.
+Okay? And very last thing I will say is just once you have clearly, like, outlined the outline and you've expanded your, your like, final EEC outline, right? From the 5 mistakes, you expand those with like action steps, examples, templates, whatever, just as bullet points only once you've done that and you're confident on actual, like the main sections and order and flow then you will actually like look for these specific sentence by sentence patterns, or like rhetorical directives, rhetorical moves, rhetorical structure, prompt template stuff, and you'll find the braindump voice note transcript, like actual content like I was describing before, hunting that down with a first string vs second string mentality I hashed out earlier. And that's where you'll source the content from, and then plug it into that sort of rhetorical or writing rhythm "directive" or "structure" where it's more in line. But only once you've established the main points and subpoints first.
