@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/📈 Rapid Lessons Learned & EEC Writing Approach Upgrades.m4a"
+audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/🏁 Let’s Go!!! This Is For The Finish – My Day 1 Email 100% BSed & Sent Off To The First Draft Gods For Review.m4a"
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 

@@ -1,5 +1,3 @@
-# (CURRENT VERSION)
-
 import re
 import os
 import html
