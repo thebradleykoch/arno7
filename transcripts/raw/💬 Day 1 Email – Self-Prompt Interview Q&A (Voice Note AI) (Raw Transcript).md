@@ -543,4 +543,3 @@ It really should be pretty straightforward. Like, I don't think I'm going to be 
 [00:54:46]
 **Bradley:**
 And then you have the sign off at the very end. I'm debating whether I should add my. Add my nickname.
-
