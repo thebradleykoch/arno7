@@ -10,7 +10,7 @@ All right, so here's what we're gonna do. We're going to do the day 1 email, sel
 
 [00:00:14]
 **Bradley:**
-Basically, I've converted the rhetorical structure template into a self-prompt interview question template. I'm going to go down the line, bullet point by bullet point, answering these questions to the best of my ability. This will serve as braindump content for both my personal, human-written, AI unassisted draft.
+Basically, I've converted the rhetorical structure template into a self-prompt interview question template. I'm going to go down the line, bullet point by bullet point, answering these questions to the best of my ability. This will serve as braindump content for both my personal, human-written, AI-unassisted draft.
 
 [00:00:43]
 **Bradley:**
