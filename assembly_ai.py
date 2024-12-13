@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/💬 Day 1 Email – Self-Prompt Interview Q&A.m4a"
+audio_file = "/Users/bradleykoch/Library/Mobile Documents/com~apple~CloudDocs/MEDITATION/GA Meditation.mp3"
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
@@ -15,7 +15,7 @@ audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/�
 # Set the number of speakers expected in the audio file
 speakers_expected = 1
 # Define the speakers' names
-speaker_a = "Bradley"
+speaker_a = "Joe Dispenza"
 speaker_b = ""  # Add this when there's a second speaker
 speaker_c = ""  # Add this when there's a third speaker
 
