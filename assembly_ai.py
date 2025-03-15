@@ -7,18 +7,58 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Library/Mobile Documents/com~apple~CloudDocs/MEDITATION/GA Meditation.mp3"
+audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/10-22-51.m4a"
+
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
 
-# Set the number of speakers expected in the audio file
-speakers_expected = 1
-# Define the speakers' names
-speaker_a = "Joe Dispenza"
-speaker_b = ""  # Add this when there's a second speaker
-speaker_c = ""  # Add this when there's a third speaker
+# Set the number of speakers expected in the audio file (1-8)
+speakers_expected = 8
 
+# Define speaker names - add as many as needed up to 8
+# Leave empty strings for speakers that aren't present
+speaker_names = [
+    "Speaker 1",  # Speaker A
+    "Speaker 2",           # Speaker B
+    "Speaker 3",           # Speaker C
+    "Speaker 4",           # Speaker D
+    "Speaker 5",           # Speaker E
+    "Speaker 6",           # Speaker F
+    "Speaker 7",           # Speaker G
+    "Speaker 8"            # Speaker H
+]
+
+# Choose the Custom Vocab List to use for this particular transcript
+
+custom_vocab_list_1 = [
+    "Lara", "Nori", "Laney", "Bradley", "Aussie Doodle", "Dan Koe", "Matt Giaro",
+    "Dickie Bush", "Nicolas Cole", "Justin Welsh", "Tim Denning", "Ramit Sethi", "Ali Abdaal",
+    "Carter Surach", "Productive Dude", "Drake Surach", "AI Foundations", "Customer Desire Map",
+    "ghostwriting", "Premium Ghostwriting Academy", "PGA", "Educational Email Course", "EEC",
+    "Write With AI", "WWAI", "Typeshare", "Modern Mastery", "OpenAI", "OpenAI API Key", "Custom GPT", "ChatGPT",
+    "Claude", "Sonnet", "Opus", "Arno",
+    "TextCortex", "Map Of Content", "Rhetorical Structure",
+    "Style Guide", "Rhythm Blocks", "Notion", "Obsidian", "Capacities", "Snipd", "SalesStory",
+    "MusixMatch", "MaxQDA", "Terminix", "Vantage", "JavaScript",
+    "HTML", "CSS", "Style Sheet", "Markdown", "Subject Line", "Lead", "CTA",
+    "vs", "braindump", "gameplan"
+]
+
+custom_vocab_list_2 = [
+    "Terminix", "Greenix", "Moxie", "Fox", "Hawx", "Aptive", "All Star", "Patton",
+    "Betts", "Best Pest", "Bug Stoppers", "Hassman", "Trugreen", "Champion Pest",
+    "local bug guy", "Do-It-Yourselfer", "initial", "initial service" "quarterly", "bimonthly", "free reservice",
+    "free retreatment", "mud daubers", "paper wasps", "ground hornets", "wolf spiders",
+    "brown recluse", "pharaoh ants", "field mice", "carpenter bees", "centipedes",
+    "silverfish", "fleas", "ticks", "voles", "house crickets", "field crickets",
+    "ovipositor", "adult bugs", "eggs", "pupae", "larvae", "pest control", "pheromones", "pheromone eraser", "Q-tip", "de-web",
+    "web-out", "eaves", "giant pole", "granulation", "granulate", "granular",
+    "fertilizer pellets", "premium liquid barrier", "power seal", "tick barrier",
+    "bait boxes", "Ortho Home Defense", "Home Defense", "Spectracide", "Bifenthrin",
+    "Terro Baits", "Borax", "Bradley Koch", "Mason Koch", "Alec Withers", "Jeremy Leavitt",
+    "Matt Barrott", "Grayson Elwood", "Andrew Moffat", "Jacob Moffat"
+]
 
 # Load environment variables from .env file
 load_dotenv()
@@ -29,20 +69,8 @@ aai.settings.api_key = os.getenv('ASSEMBLY_AI_API_KEY')
 # Set the transcription config (including custom vocabulary)
 config = aai.TranscriptionConfig(
     speaker_labels=True,
-    speakers_expected=speakers_expected,
-    word_boost=[
-        "Lara", "Nori", "Laney", "Bradley", "Aussie Doodle", "Dan Koe", "Matt Giaro",
-        "Dickie Bush", "Nicolas Cole", "Justin Welsh", "Tim Denning", "Ramit Sethi", "Ali Abdaal",
-        "Carter Surach", "Productive Dude", "Drake Surach", "AI Foundations", "Customer Desire Map",
-        "ghostwriting", "Premium Ghostwriting Academy", "PGA", "Educational Email Course", "EEC",
-        "Write With AI", "WWAI", "Typeshare", "Modern Mastery", "OpenAI", "OpenAI API Key", "Custom GPT", "ChatGPT",
-        "Claude", "Sonnet", "Opus", "Arno",
-        "TextCortex", "Map Of Content", "Rhetorical Structure",
-        "Style Guide", "Rhythm Blocks", "Notion", "Obsidian", "Capacities", "Snipd", "SalesStory",
-        "MusixMatch", "MaxQDA", "Terminix", "Vantage", "JavaScript",
-        "HTML", "CSS", "Style Sheet", "Markdown", "Subject Line", "Lead", "CTA",
-        "vs", "braindump", "gameplan"
-    ],
+    # speakers_expected=speakers_expected,
+    word_boost=custom_vocab_list_2,
     boost_param="high",
     disfluencies=False
     # audio_start_from=0,  # The start time of the transcription in milliseconds
@@ -66,36 +94,30 @@ def format_timestamp(timestamp):  # Reformat the timestamps
     return "[{:02d}:{:02d}:{:02d}]".format(int(seconds // 3600), int((seconds % 3600) // 60), int(seconds % 60))
 
 
-# Transcribe the audio file
-transcript = transcriber.transcribe(
-    audio_file,
-    config=config
-)
-
-
-# Map the speaker labels to their real names
-if speakers_expected == 1:
-    speaker_mapping = {"A": f"{speaker_a}"}
-elif speakers_expected == 2:
-    speaker_mapping = {"A": f"{speaker_a}", "B": f"{speaker_b}"}
-elif speakers_expected == 3:
-    speaker_mapping = {"A": f"{speaker_a}",
-                       "B": f"{speaker_b}", "C": f"{speaker_c}"}
+# Create speaker mapping dynamically
+speaker_mapping = {}
+for i in range(min(8, speakers_expected)):
+    # Map letters A-H to speaker names, defaulting to "Speaker X" if name is empty
+    speaker_letter = chr(65 + i)  # A, B, C, etc.
+    speaker_name = speaker_names[i] if i < len(
+        speaker_names) and speaker_names[i] else f"Speaker {i+1}"
+    speaker_mapping[speaker_letter] = speaker_name
 
 # Initialize an empty string to store the raw transcript
 raw_transcript = ""
 
-# Handles the formatting based on how many speakers there are
+# Handle the formatting based on how many speakers there are
 if speakers_expected == 1:
     paragraphs = transcript.get_paragraphs()
     for paragraph in paragraphs:
         start_time = format_timestamp(paragraph.start)
-        raw_transcript += f"{start_time}\n**{speaker_a}:**\n{paragraph.text}\n\n"
+        raw_transcript += f"{start_time}\n**{speaker_names[0] or 'Speaker 1'}:**\n{paragraph.text}\n\n"
 else:
     for utterance in transcript.utterances:
         start_time = format_timestamp(utterance.start)
+        speaker_label = utterance.speaker
         speaker_name = speaker_mapping.get(
-            utterance.speaker, utterance.speaker)
+            speaker_label, f"Unknown Speaker ({speaker_label})")
         raw_transcript += f"{start_time}\n**{speaker_name}:**\n{utterance.text}\n\n"
 
 # Print and copy the transcript to the clipboard
