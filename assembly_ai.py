@@ -7,26 +7,26 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/10-22-51.m4a"
+audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/Sale 13 Robert Ringer (Not Interested Response).m4a"
 
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
 
 # Set the number of speakers expected in the audio file (1-8)
-speakers_expected = 8
+speakers_expected = 2
 
 # Define speaker names - add as many as needed up to 8
 # Leave empty strings for speakers that aren't present
 speaker_names = [
-    "Speaker 1",  # Speaker A
-    "Speaker 2",           # Speaker B
-    "Speaker 3",           # Speaker C
-    "Speaker 4",           # Speaker D
-    "Speaker 5",           # Speaker E
-    "Speaker 6",           # Speaker F
-    "Speaker 7",           # Speaker G
-    "Speaker 8"            # Speaker H
+    "Bradley",             # Speaker A
+    "Robert"              # Speaker B
+    # "Speaker 3",           # Speaker C
+    # "Speaker 4",           # Speaker D
+    # "Speaker 5",           # Speaker E
+    # "Speaker 6",           # Speaker F
+    # "Speaker 7",           # Speaker G
+    # "Speaker 8"            # Speaker H
 ]
 
 # Choose the Custom Vocab List to use for this particular transcript
@@ -47,17 +47,17 @@ custom_vocab_list_1 = [
 
 custom_vocab_list_2 = [
     "Terminix", "Greenix", "Moxie", "Fox", "Hawx", "Aptive", "All Star", "Patton",
-    "Betts", "Best Pest", "Bug Stoppers", "Hassman", "Trugreen", "Champion Pest",
-    "local bug guy", "Do-It-Yourselfer", "initial", "initial service" "quarterly", "bimonthly", "free reservice",
-    "free retreatment", "mud daubers", "paper wasps", "ground hornets", "wolf spiders",
-    "brown recluse", "pharaoh ants", "field mice", "carpenter bees", "centipedes",
+    "Betts", "Best Pest", "Bug Stoppers", "Hassman", "Trugreen", "Champion Pest", "First Response"
+    "local bug guy", "Do-It-Yourselfer", "initial", "initial service" "quarterly", "bimonthly", "reservice",
+    "retreatment", "group rate", "wasps", "wasps' nest", "mud daubers", "paper wasps", "ground hornets", "wolf spiders", "centipedes",
+    "brown recluse", "pharaoh ants", "field mice", "carpenter bees",
     "silverfish", "fleas", "ticks", "voles", "house crickets", "field crickets",
-    "ovipositor", "adult bugs", "eggs", "pupae", "larvae", "pest control", "pheromones", "pheromone eraser", "Q-tip", "de-web",
+    "ovipositor", "adult bugs", "eggs", "pupae", "larvae", "pest control", "eco-friendly", "pheromones", "pheromone eraser", "Q-tip", "de-web",
     "web-out", "eaves", "giant pole", "granulation", "granulate", "granular",
     "fertilizer pellets", "premium liquid barrier", "power seal", "tick barrier",
     "bait boxes", "Ortho Home Defense", "Home Defense", "Spectracide", "Bifenthrin",
-    "Terro Baits", "Borax", "Bradley Koch", "Mason Koch", "Alec Withers", "Jeremy Leavitt",
-    "Matt Barrott", "Grayson Elwood", "Andrew Moffat", "Jacob Moffat"
+    "Terro Baits", "Borax", "1-year", "Bradley Koch", "Mason Koch", "Alec Withers", "Jeremy Leavitt",
+    "Matt Barrott", "Grayson Elwood", "Andrew Moffat", "Jacob Moffat", "Terminix", "Greenix"
 ]
 
 # Load environment variables from .env file
@@ -70,7 +70,7 @@ aai.settings.api_key = os.getenv('ASSEMBLY_AI_API_KEY')
 config = aai.TranscriptionConfig(
     speaker_labels=True,
     # speakers_expected=speakers_expected,
-    word_boost=custom_vocab_list_2,
+    word_boost=custom_vocab_list_2,  # Set to the appropriate Custom Vocab List
     boost_param="high",
     disfluencies=False
     # audio_start_from=0,  # The start time of the transcription in milliseconds
