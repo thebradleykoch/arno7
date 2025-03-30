@@ -7,31 +7,33 @@ from dotenv import load_dotenv
 
 # Choose one of the following audio files to transcribe (uncomment one option below):
 # Option 1: Local audio file
-audio_file = "/Users/bradleykoch/Documents/Coding/Projects/arno7/audio_files/Sale 13 Robert Ringer (Not Interested Response).m4a"
+audio_file = "/Users/bradleykoch/Desktop/B-RAD/Summer Sales/The Grit/Sales Recordings/Mentor Recordings/Alec Sale – Stan (RACs on RACs).m4a"
 
 # # Option 2: URL audio file (like Google Drive)
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
 
-# Set the number of speakers expected in the audio file (1-8)
-speakers_expected = 2
+# Set the number of speakers expected in the audio file (1-10)
+speakers_expected = 4
 
-# Define speaker names - add as many as needed up to 8
+# Define speaker names - add as many as needed up to 10
 # Leave empty strings for speakers that aren't present
-speaker_names = [
-    "Bradley",             # Speaker A
-    "Robert"              # Speaker B
-    # "Speaker 3",           # Speaker C
-    # "Speaker 4",           # Speaker D
-    # "Speaker 5",           # Speaker E
-    # "Speaker 6",           # Speaker F
-    # "Speaker 7",           # Speaker G
-    # "Speaker 8"            # Speaker H
+speaker_names = [ 
+                 # Make sure to add / remove commas after each speaker name in this list whenever you add or take speakers away... Otherwise, your speakers' names will come out merged like Siamese twins
+    "Alec",
+    "Wife",
+    "Kid",
+    "Stan",
+    # "Speaker 5",
+    # "Speaker 6",
+    # "Speaker 7",
+    # "Speaker 8",
+    # "Speaker 9",
+    # "Speaker 10"
 ]
 
-# Choose the Custom Vocab List to use for this particular transcript
-
-custom_vocab_list_1 = [
+# Choose which Custom Vocab List to use for this particular transcript
+custom_vocab_list_voice_note = [
     "Lara", "Nori", "Laney", "Bradley", "Aussie Doodle", "Dan Koe", "Matt Giaro",
     "Dickie Bush", "Nicolas Cole", "Justin Welsh", "Tim Denning", "Ramit Sethi", "Ali Abdaal",
     "Carter Surach", "Productive Dude", "Drake Surach", "AI Foundations", "Customer Desire Map",
@@ -44,19 +46,17 @@ custom_vocab_list_1 = [
     "HTML", "CSS", "Style Sheet", "Markdown", "Subject Line", "Lead", "CTA",
     "vs", "braindump", "gameplan"
 ]
-
-custom_vocab_list_2 = [
+custom_vocab_list_salesstory = [
     "Terminix", "Greenix", "Moxie", "Fox", "Hawx", "Aptive", "All Star", "Patton",
-    "Betts", "Best Pest", "Bug Stoppers", "Hassman", "Trugreen", "Champion Pest", "First Response"
-    "local bug guy", "Do-It-Yourselfer", "initial", "initial service" "quarterly", "bimonthly", "reservice",
-    "retreatment", "group rate", "wasps", "wasps' nest", "mud daubers", "paper wasps", "ground hornets", "wolf spiders", "centipedes",
+    "Betts", "Best Pest", "Bug Stoppers", "Hassman", "TruGreen", "Champion Pest", "First Response"
+    "local bug guy", "Do-It-Yourselfer", "DIYer", "initial", "initial service" "quarterly", "bimonthly", "reservice",
+    "retreatment", "super cheap group rate", "group rate", "wasps", "wasps' nest", "mud daubers", "paper wasps", "ground hornets", "wolf spiders", "centipedes",
     "brown recluse", "pharaoh ants", "field mice", "carpenter bees",
     "silverfish", "fleas", "ticks", "voles", "house crickets", "field crickets",
-    "ovipositor", "adult bugs", "eggs", "pupae", "larvae", "pest control", "eco-friendly", "pheromones", "pheromone eraser", "Q-tip", "de-web",
-    "web-out", "eaves", "giant pole", "granulation", "granulate", "granular",
+    "ovipositor", "adult bugs", "eggs", "pupae", "larvae", "hatchlings", "pest control", "eco-friendly", "pheromones", "pheromone eraser", "Q-tip", "de-web", "eaves", "giant pole", "web-out", "granulation", "granulate", "granular", "granule",
     "fertilizer pellets", "premium liquid barrier", "power seal", "tick barrier",
     "bait boxes", "Ortho Home Defense", "Home Defense", "Spectracide", "Bifenthrin",
-    "Terro Baits", "Borax", "1-year", "Bradley Koch", "Mason Koch", "Alec Withers", "Jeremy Leavitt",
+    "Terro Baits", "Borax", "1-year", "A-Frame", "Bradley Koch", "Mason Koch", "Alec Withers", "Jeremy Leavitt",
     "Matt Barrott", "Grayson Elwood", "Andrew Moffat", "Jacob Moffat", "Terminix", "Greenix"
 ]
 
@@ -68,9 +68,10 @@ aai.settings.api_key = os.getenv('ASSEMBLY_AI_API_KEY')
 
 # Set the transcription config (including custom vocabulary)
 config = aai.TranscriptionConfig(
+    speech_model="best",
     speaker_labels=True,
-    # speakers_expected=speakers_expected,
-    word_boost=custom_vocab_list_2,  # Set to the appropriate Custom Vocab List
+    speakers_expected=speakers_expected,
+    word_boost=custom_vocab_list_salesstory,  # Set to the correct Custom Vocab List
     boost_param="high",
     disfluencies=False
     # audio_start_from=0,  # The start time of the transcription in milliseconds
@@ -96,9 +97,9 @@ def format_timestamp(timestamp):  # Reformat the timestamps
 
 # Create speaker mapping dynamically
 speaker_mapping = {}
-for i in range(min(8, speakers_expected)):
-    # Map letters A-H to speaker names, defaulting to "Speaker X" if name is empty
-    speaker_letter = chr(65 + i)  # A, B, C, etc.
+for i in range(min(10, speakers_expected)):
+    # Map letters A-J to speaker names, defaulting to "Speaker X" if name is empty
+    speaker_letter = chr(65 + i)  # A, B, C, etc. up to J for 10 speakers
     speaker_name = speaker_names[i] if i < len(
         speaker_names) and speaker_names[i] else f"Speaker {i+1}"
     speaker_mapping[speaker_letter] = speaker_name
@@ -149,4 +150,4 @@ clickable_link = f"\033]8;;file://{abs_path}\033\\{abs_path}\033]8;;\033\\"
 # Print completion message with timestamp
 completion_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(
-    f"Transcript generated and copied to clipboard. Saved to: {clickable_link}. Completed at {completion_time}.")
+    f"Transcript successfully generated and copied to clipboard. Saved to: {clickable_link}. Completed at {completion_time}.")
