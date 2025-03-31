@@ -1,15 +1,16 @@
 import os
+import time
+import requests
 import pyperclip
 import assemblyai as aai
 from datetime import datetime
 from dotenv import load_dotenv
 
 
-# Choose one of the following audio files to transcribe (uncomment one option below):
-# Option 1: Local audio file
+# Option 1 – You can use a local filepath:
 audio_file = "/Users/bradleykoch/Desktop/B-RAD/Summer Sales/The Grit/Sales Recordings/Mentor Recordings/Alec Sale – Stan (RACs on RACs).m4a"
 
-# # Option 2: URL audio file (like Google Drive)
+# # Option 2 – Or a publicly accessible URL:
 # audio_file = "https://drive.google.com/uc?export=download&id=12sf2SNmhaMV7IeRROFTezXO7lreWBfr8"
 
 
@@ -18,8 +19,8 @@ speakers_expected = 4
 
 # Define speaker names - add as many as needed up to 10
 # Leave empty strings for speakers that aren't present
-speaker_names = [ 
-                 # Make sure to add / remove commas after each speaker name in this list whenever you add or take speakers away... Otherwise, your speakers' names will come out merged like Siamese twins
+speaker_names = [
+    # Make sure to add / remove commas after each speaker name in this list whenever you add or take speakers away... Otherwise, your speakers' names will come out merged like Siamese twins
     "Alec",
     "Wife",
     "Kid",
@@ -33,7 +34,7 @@ speaker_names = [
 ]
 
 # Choose which Custom Vocab List to use for this particular transcript
-custom_vocab_list_voice_note = [
+custom_vocab_list_voicenote = [
     "Lara", "Nori", "Laney", "Bradley", "Aussie Doodle", "Dan Koe", "Matt Giaro",
     "Dickie Bush", "Nicolas Cole", "Justin Welsh", "Tim Denning", "Ramit Sethi", "Ali Abdaal",
     "Carter Surach", "Productive Dude", "Drake Surach", "AI Foundations", "Customer Desire Map",
@@ -64,14 +65,15 @@ custom_vocab_list_salesstory = [
 load_dotenv()
 
 # Set API key from .env file
-aai.settings.api_key = os.getenv('ASSEMBLY_AI_API_KEY')
+aai.settings.api_key = os.getenv("ASSEMBLY_AI_API_KEY")
 
 # Set the transcription config (including custom vocabulary)
 config = aai.TranscriptionConfig(
     speech_model="best",
     speaker_labels=True,
     speakers_expected=speakers_expected,
-    word_boost=custom_vocab_list_salesstory,  # Set to the correct Custom Vocab List
+    # Set to the correct Custom Vocab List
+    word_boost=custom_vocab_list_salesstory,
     boost_param="high",
     disfluencies=False
     # audio_start_from=0,  # The start time of the transcription in milliseconds
@@ -112,7 +114,7 @@ if speakers_expected == 1:
     paragraphs = transcript.get_paragraphs()
     for paragraph in paragraphs:
         start_time = format_timestamp(paragraph.start)
-        raw_transcript += f"{start_time}\n**{speaker_names[0] or 'Speaker 1'}:**\n{paragraph.text}\n\n"
+        raw_transcript += f"{start_time}\n**{speaker_names[0] or "Speaker 1"}:**\n{paragraph.text}\n\n"
 else:
     for utterance in transcript.utterances:
         start_time = format_timestamp(utterance.start)
